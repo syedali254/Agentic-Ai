@@ -1,7 +1,11 @@
+
+# this is comment added to test if my pyton code is working or not for git push
+# also removing my api key which i accidently pushed to public repo
+
 import requests
 import json
 
-api_key = "AIzaSyBMc9ZXJN-_eSYuzQWY8p4gy5kUIt5SYA0"
+api_key = "Your API Key"  # remove this line and replace with your api key
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
 
 headers = {
