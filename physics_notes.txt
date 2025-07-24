@@ -1,0 +1,9 @@
+
+Q1: What is gravity?
+A1: Gravity is a moving object in opposite direction and attracting each other
+
+Q2: State Newton's First Law of Motion.
+A2: An object stays still or moves in a straight line unless something makes it stop or change direction.
+
+Q3: What is the First Law of Thermodynamics?
+A3: It says energy can be created or destroyed but it can not change from one form to another.
