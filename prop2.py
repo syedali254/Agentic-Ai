@@ -111,6 +111,12 @@ faq_agent = initialize_agent(
 )
 
 # ----------------------- MANAGER AGENT (ROUTER) -----------------------
+#it will router to the only 1 best agent if query has multiple needs to call agent it is not good option 
+# it will either route to finance agent or property agent based on the query but if we want in 1 query to use both finanve
+# and roperty agent it will fail
+
+
+# To Solve this we will use an Ai planner that will plan the conversation flow and then we will use the best agent to answer the query
 def route_query(query):
     q = query.lower()
     if any(word in q for word in ["loan", "emi", "price", "investment"]):
